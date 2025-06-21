@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>
+
+    <!-- For Dark Mode -->
+     <div style="text-align: center; margin-bottom: 10px;">
+        <label for="darkModeToggle">
+            <input type="checkbox" id="darkModeToggle"> Karanlık Mod
+        </label>
+    </div>
+
+    <h1>Todo</h1>
+
+    <div class="container">
+
+        <div id="todoInputContainer">
+            <input type="text" id="todoInput" placeholder="Yeni todo ekle...">
+
+            <button id="addTodoButton">Ekle</button>
+
+        </div>
+
+        
+        <ul id="todoList">
+            <!-- Todo öğeleri buraya eklenecek -->    
+        </ul>
+
+    </div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
